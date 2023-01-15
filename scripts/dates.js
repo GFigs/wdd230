@@ -3,7 +3,7 @@ const year = d.getFullYear();
 document.getElementById("currentyear").textContent = year;
 
 const olastmodif = new Date(document.lastModified);
-const modifmonth = olastmodif.getMonth();
+const modifmonth = olastmodif.getMonth() + 1;
 const modifday = olastmodif.getDate();
 const modifyear = olastmodif.getFullYear();
 const modifhour = olastmodif.getHours();
