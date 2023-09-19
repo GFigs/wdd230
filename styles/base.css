@@ -66,6 +66,7 @@ li {
     display: block;
     background-color: var(--light-green);
     text-align: center;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
