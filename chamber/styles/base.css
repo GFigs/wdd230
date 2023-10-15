@@ -1,0 +1,123 @@
+:root {
+    --light-blue: #ade8f4;
+    --blue: #00b4d8;
+    --dark-blue: #023e8a;
+    --very-light-pink: #f7f7f7;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    background-color: var(--very-light-pink);
+}
+
+header .logocontainer {
+    width: 2rem;
+    height: 2rem;
+}
+
+.logocontainer img {
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    background-color: var(--blue);
+    min-height: 3rem;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    padding-inline-start: 0;
+} 
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	color: #000;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#menu::before {
+	content: "≡";
+}
+.navigation li {
+    display: none;
+    padding: 0.5rem;
+    
+}
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#menu.show::before {
+	content: "X";
+}
+.show li {
+	display: block;
+}
+
+.heroimgcontainer {
+    width: 100%;
+}
+.heroimgcontainer img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card {
+    border: solid 1px gray;
+    margin: 1rem;
+    background-color: var(--light-blue);
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card p {
+    padding-left: 1rem;
+}
+
+.companyspotlight {
+    margin: 2rem;
+    border: solid 1px gray;
+    background-color: var(--very-light-pink);
+    border-radius: 5px;
+}
+
+.companyspotlight h3 {
+    text-align: center;
+}
+.companyspotlight p {
+    text-align: center;
+}
+
+.logocontainer {
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--blue);
+}
+footer h4, footer p {
+    text-align: center;
+}

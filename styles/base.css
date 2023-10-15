@@ -113,7 +113,7 @@ footer :nth-child(2){
 	content: "≡";
 }
 
-nav{
+nav {
     display: none;
 }
 
@@ -128,3 +128,5 @@ nav{
 #mapcontainer.show {
     display: none;
 }
+
+
