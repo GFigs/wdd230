@@ -121,3 +121,28 @@ footer {
 footer h4, footer p {
     text-align: center;
 }
+
+#mode {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+
+}
+#mode::before {
+    content: "🕶️";
+}
+
+.dark header #mode::before {
+    content: "🔆";
+}
+
+.dark {
+    background-color: #000;
+    color: white;
+}
+
+.dark header, .dark main .companyspotlight, .dark main .card, .dark footer {
+    background-color: var(--dark-blue);
+}

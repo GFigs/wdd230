@@ -35,5 +35,10 @@
     .companyspotlight {
         margin: 1rem;
     }
+
+    #mode {
+        right: 0.5rem;
+        left: auto;
+    }
 }
 
