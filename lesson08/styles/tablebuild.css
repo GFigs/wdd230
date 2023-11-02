@@ -1,0 +1,44 @@
+
+:root {
+    --light-blue: #ade8f4;
+    --blue: #00b4d8;
+    --dark-blue: #023e8a;
+    --very-light-pink: #f7f7f7;
+}
+
+
+
+table {
+    margin: 3rem auto;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--very-light-pink);
+}
+td {
+    text-align: center;
+}
+th {
+    font-size: larger;
+    padding: 0.5rem;
+}
+
+thead tr th {
+    background-color: var(--light-blue);
+}
+thead tr:first-child th{
+    background-color: var(--blue);
+}
+thead {
+    background-color: var(--blue);
+}
+
+th, td {
+    border: 1px solid black;
+}
